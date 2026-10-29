@@ -14,6 +14,20 @@ Godot 4.7 (GL Compatibility), it runs on Windows and Android.
 
 ---
 
+## ✨ Key Features
+* **Real-World Decision Support:** Utilize data-driven logic to make informed decisions on crop rotation, soil health, and water management.
+* **LAN Multiplayer Synchronization:** Collaborate or compete with peers on the same Local Area Network (LAN) in real-time.
+* **Mobile-Adapted UI:** Fully responsive and touch-optimized design, ensuring accessible crop management and decision-making on mobile devices.
+* **Dynamic Resource Management:** Track finances, inventory, and equipment status throughout the agricultural lifecycle.
+* **Simulated Environment:** Adapt to dynamic weather conditions and seasonal changes that directly impact crop yields.
+
+## 🛠️ Tech Stack
+*(Note: Update this section based on your specific implementation)*
+* **Frontend / UI:** [e.g., Unity / Godot / React Native / .NET MAUI]
+* **Backend / Game Logic:** [e.g., C# / Python]
+* **Networking:** Local Area Network (LAN) sockets / [e.g., Mirror / Netcode]
+* **Data Storage:** [e.g., SQLite / PostgreSQL]
+
 ## Ways to play
 
 | Mode | Devices | How |
