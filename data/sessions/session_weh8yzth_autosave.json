@@ -1,0 +1,46 @@
+{
+  "event_count": 3,
+  "events": [
+    {
+      "action": "session_started",
+      "category": "session",
+      "mode": "single",
+      "prototype_version": "0.1.0-lan",
+      "session_id": "weh8yzth",
+      "t": 0.0
+    },
+    {
+      "action": "roles_confirmed",
+      "category": "session",
+      "player_1_role": "solo",
+      "player_2_role": "",
+      "t": 0.0
+    },
+    {
+      "action": "session_left_before_start",
+      "category": "session",
+      "t": 4.001
+    }
+  ],
+  "knowledge_gain_by_player": {
+    "player_1": null,
+    "player_2": null
+  },
+  "knowledge_gain_percent": null,
+  "logged_at_unix": 1793207080,
+  "mode": "single",
+  "player_roles": {
+    "player_1": "solo"
+  },
+  "post_assessment": {},
+  "pre_assessment": {},
+  "prototype": "FarmSim",
+  "prototype_version": "0.1.0-lan",
+  "research_context": "ITRI671 Honours treatise artefact",
+  "scenario_quizzes": [],
+  "scenarios": [],
+  "session_id": "weh8yzth",
+  "session_started_unix": 1793207065,
+  "total_yield": 0.0,
+  "usability": {}
+}

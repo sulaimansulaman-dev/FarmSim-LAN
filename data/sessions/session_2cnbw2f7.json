@@ -1,0 +1,2056 @@
+{
+  "event_count": 98,
+  "events": [
+    {
+      "action": "session_started",
+      "category": "session",
+      "mode": "pair",
+      "prototype_version": "0.1.0-lan",
+      "session_id": "2cnbw2f7",
+      "t": 0.0
+    },
+    {
+      "action": "roles_confirmed",
+      "category": "session",
+      "player_1_role": "planter",
+      "player_2_role": "monitor",
+      "t": 0.331
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k1",
+      "role": "planter",
+      "seconds": 0.29,
+      "t": 0.678,
+      "topic": "soil_moisture_check"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k2",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 0.691,
+      "topic": "water_scarcity"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k1",
+      "role": "monitor",
+      "seconds": 0.25,
+      "t": 0.705,
+      "topic": "soil_moisture_check",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k3",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 0.705,
+      "topic": "planting_area"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k2",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 0.719,
+      "topic": "water_scarcity",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k4",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 0.719,
+      "topic": "stress_recovery"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k3",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 0.733,
+      "topic": "planting_area",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k5",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 0.733,
+      "topic": "pest_scouting"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k4",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 0.747,
+      "topic": "stress_recovery",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k6",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 0.747,
+      "topic": "pest_response"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k5",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 0.76,
+      "topic": "pest_scouting",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k7",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 0.761,
+      "topic": "soil_preparation"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k6",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 0.774,
+      "topic": "pest_response",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 1,
+      "question_id": "k8",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 0.774,
+      "topic": "over_irrigation"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k7",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 0.788,
+      "topic": "soil_preparation",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "pre_assessment",
+      "player": 2,
+      "question_id": "k8",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 0.802,
+      "topic": "over_irrigation",
+      "via": "player_2"
+    },
+    {
+      "action": "assessment_completed",
+      "category": "assessment",
+      "kind": "pre_assessment",
+      "max_score": 16,
+      "percent": 25.0,
+      "player_scores": [
+        {
+          "max_score": 8,
+          "percent": 25.0,
+          "player": 1,
+          "role": "planter",
+          "score": 2
+        },
+        {
+          "max_score": 8,
+          "percent": 25.0,
+          "player": 2,
+          "role": "monitor",
+          "score": 2
+        }
+      ],
+      "score": 4,
+      "t": 0.802
+    },
+    {
+      "action": "scenario_started",
+      "category": "scenario",
+      "crop": "maize",
+      "event": "none",
+      "scenario_id": "baseline",
+      "scenario_index": 1,
+      "t": 1.106
+    },
+    {
+      "action": "season_started",
+      "category": "scenario",
+      "crop": "maize",
+      "duration_seconds": 200.0,
+      "scenario_id": "baseline",
+      "t": 1.478,
+      "water_reserve_litres": 380.0
+    },
+    {
+      "action": "season_started",
+      "category": "scenario",
+      "crop": "maize",
+      "duration_seconds": 200.0,
+      "scenario_id": "baseline",
+      "t": 1.807,
+      "via": "player_2",
+      "water_reserve_litres": 380.0
+    },
+    {
+      "action": "tool_changed",
+      "category": "gameplay",
+      "player": 1,
+      "role": "planter",
+      "t": 1.883,
+      "tool": "Hoe"
+    },
+    {
+      "action": "hoe_ok",
+      "category": "gameplay",
+      "ok": true,
+      "outcome": "Seedbed prepared.",
+      "player": 1,
+      "role": "planter",
+      "scenario_seconds": 4.99,
+      "t": 1.885,
+      "tile": "1,2",
+      "tool": "Hoe"
+    },
+    {
+      "action": "tool_changed",
+      "category": "gameplay",
+      "player": 2,
+      "role": "monitor",
+      "t": 2.076,
+      "tool": "Scout",
+      "via": "player_2"
+    },
+    {
+      "action": "scout_ok",
+      "category": "gameplay",
+      "ok": true,
+      "outcome": "Unprepared ground.",
+      "player": 2,
+      "role": "monitor",
+      "scenario_seconds": 7.32,
+      "t": 2.076,
+      "tile": "8,2",
+      "tool": "Scout"
+    },
+    {
+      "action": "season_finished",
+      "category": "scenario",
+      "reason": "time",
+      "scenario_id": "baseline",
+      "t": 18.133,
+      "tiles_harvested": 0,
+      "total_yield": 0.0
+    },
+    {
+      "action": "scenario_completed",
+      "category": "scenario",
+      "scenario_id": "baseline",
+      "scenario_index": 1,
+      "t": 18.133,
+      "tiles_harvested": 0,
+      "total_yield": 0.0
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_1",
+      "player": 2,
+      "question_id": "s1q1",
+      "role": "monitor",
+      "seconds": 0.3,
+      "t": 18.752,
+      "topic": "soil_preparation",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_1",
+      "player": 1,
+      "question_id": "s1q1",
+      "role": "planter",
+      "seconds": 0.31,
+      "t": 18.752,
+      "topic": "soil_preparation"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "quiz_1",
+      "player": 2,
+      "question_id": "s1q2",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 18.766,
+      "topic": "water_stress",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "quiz_1",
+      "player": 1,
+      "question_id": "s1q2",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 18.766,
+      "topic": "water_stress"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_1",
+      "player": 2,
+      "question_id": "s1q3",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 18.78,
+      "topic": "harvest_timing",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_1",
+      "player": 1,
+      "question_id": "s1q3",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 18.78,
+      "topic": "harvest_timing"
+    },
+    {
+      "action": "assessment_completed",
+      "category": "assessment",
+      "kind": "quiz_1",
+      "max_score": 6,
+      "percent": 33.3,
+      "player_scores": [
+        {
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 1,
+          "role": "planter",
+          "score": 1
+        },
+        {
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 2,
+          "role": "monitor",
+          "score": 1
+        }
+      ],
+      "score": 2,
+      "t": 18.78
+    },
+    {
+      "action": "scenario_started",
+      "category": "scenario",
+      "crop": "beans",
+      "event": "pest",
+      "scenario_id": "pest",
+      "scenario_index": 2,
+      "t": 19.084
+    },
+    {
+      "action": "season_started",
+      "category": "scenario",
+      "crop": "beans",
+      "duration_seconds": 200.0,
+      "scenario_id": "pest",
+      "t": 19.124,
+      "water_reserve_litres": 300.0
+    },
+    {
+      "action": "season_started",
+      "category": "scenario",
+      "crop": "beans",
+      "duration_seconds": 200.0,
+      "scenario_id": "pest",
+      "t": 19.161,
+      "via": "player_2",
+      "water_reserve_litres": 300.0
+    },
+    {
+      "action": "tool_changed",
+      "category": "gameplay",
+      "player": 1,
+      "role": "planter",
+      "t": 19.527,
+      "tool": "Hoe"
+    },
+    {
+      "action": "hoe_ok",
+      "category": "gameplay",
+      "ok": true,
+      "outcome": "Seedbed prepared.",
+      "player": 1,
+      "role": "planter",
+      "scenario_seconds": 4.89,
+      "t": 19.527,
+      "tile": "1,2",
+      "tool": "Hoe"
+    },
+    {
+      "action": "tool_changed",
+      "category": "gameplay",
+      "player": 2,
+      "role": "monitor",
+      "t": 19.528,
+      "tool": "Scout",
+      "via": "player_2"
+    },
+    {
+      "action": "scout_ok",
+      "category": "gameplay",
+      "ok": true,
+      "outcome": "Unprepared ground.",
+      "player": 2,
+      "role": "monitor",
+      "scenario_seconds": 4.89,
+      "t": 19.528,
+      "tile": "8,2",
+      "tool": "Scout"
+    },
+    {
+      "action": "event_triggered",
+      "category": "scenario",
+      "event": "pest",
+      "scenario_seconds": 35.01,
+      "t": 22.032
+    },
+    {
+      "action": "season_finished",
+      "category": "scenario",
+      "reason": "time",
+      "scenario_id": "pest",
+      "t": 35.784,
+      "tiles_harvested": 0,
+      "total_yield": 0.0
+    },
+    {
+      "action": "scenario_completed",
+      "category": "scenario",
+      "scenario_id": "pest",
+      "scenario_index": 2,
+      "t": 35.784,
+      "tiles_harvested": 0,
+      "total_yield": 0.0
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_2",
+      "player": 1,
+      "question_id": "s2q1",
+      "role": "planter",
+      "seconds": 0.31,
+      "t": 36.407,
+      "topic": "pest_scouting"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_2",
+      "player": 2,
+      "question_id": "s2q1",
+      "role": "monitor",
+      "seconds": 0.3,
+      "t": 36.414,
+      "topic": "pest_scouting",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_2",
+      "player": 1,
+      "question_id": "s2q2",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 36.421,
+      "topic": "pest_response"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_2",
+      "player": 2,
+      "question_id": "s2q2",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 36.427,
+      "topic": "pest_response",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "quiz_2",
+      "player": 1,
+      "question_id": "s2q3",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 36.434,
+      "topic": "crop_health"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "quiz_2",
+      "player": 2,
+      "question_id": "s2q3",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 36.441,
+      "topic": "crop_health",
+      "via": "player_2"
+    },
+    {
+      "action": "assessment_completed",
+      "category": "assessment",
+      "kind": "quiz_2",
+      "max_score": 6,
+      "percent": 33.3,
+      "player_scores": [
+        {
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 1,
+          "role": "planter",
+          "score": 1
+        },
+        {
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 2,
+          "role": "monitor",
+          "score": 1
+        }
+      ],
+      "score": 2,
+      "t": 36.441
+    },
+    {
+      "action": "scenario_started",
+      "category": "scenario",
+      "crop": "maize",
+      "event": "drought",
+      "scenario_id": "drought",
+      "scenario_index": 3,
+      "t": 36.745
+    },
+    {
+      "action": "season_started",
+      "category": "scenario",
+      "crop": "maize",
+      "duration_seconds": 200.0,
+      "scenario_id": "drought",
+      "t": 36.789,
+      "water_reserve_litres": 140.0
+    },
+    {
+      "action": "season_started",
+      "category": "scenario",
+      "crop": "maize",
+      "duration_seconds": 200.0,
+      "scenario_id": "drought",
+      "t": 36.826,
+      "via": "player_2",
+      "water_reserve_litres": 140.0
+    },
+    {
+      "action": "tool_changed",
+      "category": "gameplay",
+      "player": 1,
+      "role": "planter",
+      "t": 37.178,
+      "tool": "Hoe"
+    },
+    {
+      "action": "hoe_ok",
+      "category": "gameplay",
+      "ok": true,
+      "outcome": "Seedbed prepared.",
+      "player": 1,
+      "role": "planter",
+      "scenario_seconds": 4.85,
+      "t": 37.178,
+      "tile": "1,2",
+      "tool": "Hoe"
+    },
+    {
+      "action": "tool_changed",
+      "category": "gameplay",
+      "player": 2,
+      "role": "monitor",
+      "t": 37.192,
+      "tool": "Scout",
+      "via": "player_2"
+    },
+    {
+      "action": "scout_ok",
+      "category": "gameplay",
+      "ok": true,
+      "outcome": "Unprepared ground.",
+      "player": 2,
+      "role": "monitor",
+      "scenario_seconds": 5.01,
+      "t": 37.192,
+      "tile": "8,2",
+      "tool": "Scout"
+    },
+    {
+      "action": "event_triggered",
+      "category": "scenario",
+      "event": "drought",
+      "scenario_seconds": 30.07,
+      "t": 39.276
+    },
+    {
+      "action": "season_finished",
+      "category": "scenario",
+      "reason": "time",
+      "scenario_id": "drought",
+      "t": 53.442,
+      "tiles_harvested": 0,
+      "total_yield": 0.0
+    },
+    {
+      "action": "scenario_completed",
+      "category": "scenario",
+      "scenario_id": "drought",
+      "scenario_index": 3,
+      "t": 53.442,
+      "tiles_harvested": 0,
+      "total_yield": 0.0
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_3",
+      "player": 2,
+      "question_id": "s3q1",
+      "role": "monitor",
+      "seconds": 0.3,
+      "t": 54.056,
+      "topic": "shared_water",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_3",
+      "player": 1,
+      "question_id": "s3q1",
+      "role": "planter",
+      "seconds": 0.31,
+      "t": 54.056,
+      "topic": "shared_water"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_3",
+      "player": 2,
+      "question_id": "s3q2",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.07,
+      "topic": "water_scarcity",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_3",
+      "player": 1,
+      "question_id": "s3q2",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.07,
+      "topic": "water_scarcity"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_3",
+      "player": 2,
+      "question_id": "s3q3",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.084,
+      "topic": "stress_recovery",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "quiz_3",
+      "player": 1,
+      "question_id": "s3q3",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.084,
+      "topic": "stress_recovery"
+    },
+    {
+      "action": "assessment_completed",
+      "category": "assessment",
+      "kind": "quiz_3",
+      "max_score": 6,
+      "percent": 0.0,
+      "player_scores": [
+        {
+          "max_score": 3,
+          "percent": 0.0,
+          "player": 1,
+          "role": "planter",
+          "score": 0
+        },
+        {
+          "max_score": 3,
+          "percent": 0.0,
+          "player": 2,
+          "role": "monitor",
+          "score": 0
+        }
+      ],
+      "score": 0,
+      "t": 54.084
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k3",
+      "role": "planter",
+      "seconds": 0.3,
+      "t": 54.394,
+      "topic": "planting_area"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k3",
+      "role": "monitor",
+      "seconds": 0.3,
+      "t": 54.401,
+      "topic": "planting_area",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k6",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.408,
+      "topic": "pest_response"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k6",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.415,
+      "topic": "pest_response",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k1",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.422,
+      "topic": "soil_moisture_check"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k1",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.429,
+      "topic": "soil_moisture_check",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k8",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.436,
+      "topic": "over_irrigation"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k8",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.443,
+      "topic": "over_irrigation",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k4",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.449,
+      "topic": "stress_recovery"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k4",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.456,
+      "topic": "stress_recovery",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k2",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.463,
+      "topic": "water_scarcity"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": true,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k2",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.47,
+      "topic": "water_scarcity",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k7",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.477,
+      "topic": "soil_preparation"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k7",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.484,
+      "topic": "soil_preparation",
+      "via": "player_2"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 1,
+      "question_id": "k5",
+      "role": "planter",
+      "seconds": 0.01,
+      "t": 54.491,
+      "topic": "pest_scouting"
+    },
+    {
+      "action": "question_answered",
+      "category": "assessment",
+      "correct": false,
+      "kind": "post_assessment",
+      "player": 2,
+      "question_id": "k5",
+      "role": "monitor",
+      "seconds": 0.01,
+      "t": 54.498,
+      "topic": "pest_scouting",
+      "via": "player_2"
+    },
+    {
+      "action": "assessment_completed",
+      "category": "assessment",
+      "kind": "post_assessment",
+      "max_score": 16,
+      "percent": 25.0,
+      "player_scores": [
+        {
+          "max_score": 8,
+          "percent": 25.0,
+          "player": 1,
+          "role": "planter",
+          "score": 2
+        },
+        {
+          "max_score": 8,
+          "percent": 25.0,
+          "player": 2,
+          "role": "monitor",
+          "score": 2
+        }
+      ],
+      "score": 4,
+      "t": 54.498
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 1,
+      "role": "planter",
+      "seconds": 0.26,
+      "statement_id": "u1",
+      "t": 54.799,
+      "topic": "controls"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 1,
+      "role": "planter",
+      "seconds": 0.01,
+      "statement_id": "u2",
+      "t": 54.806,
+      "topic": "icons_messages"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 1,
+      "role": "planter",
+      "seconds": 0.01,
+      "statement_id": "u3",
+      "t": 54.813,
+      "topic": "shared_water"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 1,
+      "role": "planter",
+      "seconds": 0.01,
+      "statement_id": "u4",
+      "t": 54.82,
+      "topic": "shared_keyboard"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 1,
+      "role": "planter",
+      "seconds": 0.01,
+      "statement_id": "u5",
+      "t": 54.826,
+      "topic": "play_again"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 2,
+      "role": "monitor",
+      "seconds": 0.26,
+      "statement_id": "u1",
+      "t": 54.847,
+      "topic": "controls",
+      "via": "player_2"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 2,
+      "role": "monitor",
+      "seconds": 0.01,
+      "statement_id": "u2",
+      "t": 54.854,
+      "topic": "icons_messages",
+      "via": "player_2"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 2,
+      "role": "monitor",
+      "seconds": 0.01,
+      "statement_id": "u3",
+      "t": 54.861,
+      "topic": "shared_water",
+      "via": "player_2"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 2,
+      "role": "monitor",
+      "seconds": 0.01,
+      "statement_id": "u4",
+      "t": 54.868,
+      "topic": "shared_keyboard",
+      "via": "player_2"
+    },
+    {
+      "action": "usability_answered",
+      "answer": "yes",
+      "category": "assessment",
+      "kind": "usability",
+      "player": 2,
+      "role": "monitor",
+      "seconds": 0.01,
+      "statement_id": "u5",
+      "t": 54.875,
+      "topic": "play_again",
+      "via": "player_2"
+    },
+    {
+      "action": "usability_completed",
+      "category": "assessment",
+      "instrument_id": "usability_v1",
+      "players": 2,
+      "t": 54.875
+    },
+    {
+      "action": "session_completed",
+      "category": "session",
+      "t": 54.875,
+      "total_yield": 0.0
+    }
+  ],
+  "knowledge_gain_by_player": {
+    "player_1": 0.0,
+    "player_2": 0.0
+  },
+  "knowledge_gain_percent": 0.0,
+  "logged_at_unix": 1793219351,
+  "mode": "pair",
+  "player_roles": {
+    "player_1": "planter",
+    "player_2": "monitor"
+  },
+  "post_assessment": {
+    "instrument_id": "post_assessment_v2",
+    "kind": "post_assessment",
+    "max_score": 16,
+    "mode": "individual",
+    "percent": 25.0,
+    "players": [
+      {
+        "answers": [
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k3",
+            "seconds": 0.3,
+            "selected_index": 0,
+            "topic": "planting_area"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k6",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_response"
+          },
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k1",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "soil_moisture_check"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k8",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "over_irrigation"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k4",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "stress_recovery"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k2",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "water_scarcity"
+          },
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k7",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "soil_preparation"
+          },
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k5",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_scouting"
+          }
+        ],
+        "max_score": 8,
+        "percent": 25.0,
+        "player": 1,
+        "role": "planter",
+        "score": 2,
+        "seconds": 0.4
+      },
+      {
+        "answers": [
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k3",
+            "seconds": 0.3,
+            "selected_index": 0,
+            "topic": "planting_area"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k6",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_response"
+          },
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k1",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "soil_moisture_check"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k8",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "over_irrigation"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k4",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "stress_recovery"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k2",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "water_scarcity"
+          },
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k7",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "soil_preparation"
+          },
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k5",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_scouting"
+          }
+        ],
+        "max_score": 8,
+        "percent": 25.0,
+        "player": 2,
+        "role": "monitor",
+        "score": 2,
+        "seconds": 0.4
+      }
+    ],
+    "score": 4,
+    "seconds": 0.41
+  },
+  "pre_assessment": {
+    "instrument_id": "pre_assessment_v2",
+    "kind": "pre_assessment",
+    "max_score": 16,
+    "mode": "individual",
+    "percent": 25.0,
+    "players": [
+      {
+        "answers": [
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k1",
+            "seconds": 0.29,
+            "selected_index": 0,
+            "topic": "soil_moisture_check"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k2",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "water_scarcity"
+          },
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k3",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "planting_area"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k4",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "stress_recovery"
+          },
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k5",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_scouting"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k6",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_response"
+          },
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k7",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "soil_preparation"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k8",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "over_irrigation"
+          }
+        ],
+        "max_score": 8,
+        "percent": 25.0,
+        "player": 1,
+        "role": "planter",
+        "score": 2,
+        "seconds": 0.39
+      },
+      {
+        "answers": [
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k1",
+            "seconds": 0.25,
+            "selected_index": 0,
+            "topic": "soil_moisture_check"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k2",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "water_scarcity"
+          },
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k3",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "planting_area"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k4",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "stress_recovery"
+          },
+          {
+            "correct": false,
+            "correct_index": 2,
+            "question_id": "k5",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_scouting"
+          },
+          {
+            "correct": true,
+            "correct_index": 0,
+            "question_id": "k6",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "pest_response"
+          },
+          {
+            "correct": false,
+            "correct_index": 3,
+            "question_id": "k7",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "soil_preparation"
+          },
+          {
+            "correct": false,
+            "correct_index": 1,
+            "question_id": "k8",
+            "seconds": 0.01,
+            "selected_index": 0,
+            "topic": "over_irrigation"
+          }
+        ],
+        "max_score": 8,
+        "percent": 25.0,
+        "player": 2,
+        "role": "monitor",
+        "score": 2,
+        "seconds": 0.35
+      }
+    ],
+    "score": 4,
+    "seconds": 0.42
+  },
+  "prototype": "FarmSim",
+  "prototype_version": "0.1.0-lan",
+  "research_context": "ITRI671 Honours treatise artefact",
+  "scenario_quizzes": [
+    {
+      "instrument_id": "quiz_scenario_1_v3",
+      "kind": "quiz_1",
+      "max_score": 6,
+      "mode": "individual",
+      "percent": 33.3,
+      "players": [
+        {
+          "answers": [
+            {
+              "correct": false,
+              "correct_index": 2,
+              "question_id": "s1q1",
+              "seconds": 0.31,
+              "selected_index": 0,
+              "topic": "soil_preparation"
+            },
+            {
+              "correct": true,
+              "correct_index": 0,
+              "question_id": "s1q2",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "water_stress"
+            },
+            {
+              "correct": false,
+              "correct_index": 3,
+              "question_id": "s1q3",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "harvest_timing"
+            }
+          ],
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 1,
+          "role": "planter",
+          "score": 1,
+          "seconds": 0.34
+        },
+        {
+          "answers": [
+            {
+              "correct": false,
+              "correct_index": 2,
+              "question_id": "s1q1",
+              "seconds": 0.3,
+              "selected_index": 0,
+              "topic": "soil_preparation"
+            },
+            {
+              "correct": true,
+              "correct_index": 0,
+              "question_id": "s1q2",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "water_stress"
+            },
+            {
+              "correct": false,
+              "correct_index": 3,
+              "question_id": "s1q3",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "harvest_timing"
+            }
+          ],
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 2,
+          "role": "monitor",
+          "score": 1,
+          "seconds": 0.33
+        }
+      ],
+      "score": 2,
+      "seconds": 0.34
+    },
+    {
+      "instrument_id": "quiz_scenario_2_v3",
+      "kind": "quiz_2",
+      "max_score": 6,
+      "mode": "individual",
+      "percent": 33.3,
+      "players": [
+        {
+          "answers": [
+            {
+              "correct": false,
+              "correct_index": 1,
+              "question_id": "s2q1",
+              "seconds": 0.31,
+              "selected_index": 0,
+              "topic": "pest_scouting"
+            },
+            {
+              "correct": false,
+              "correct_index": 3,
+              "question_id": "s2q2",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "pest_response"
+            },
+            {
+              "correct": true,
+              "correct_index": 0,
+              "question_id": "s2q3",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "crop_health"
+            }
+          ],
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 1,
+          "role": "planter",
+          "score": 1,
+          "seconds": 0.33
+        },
+        {
+          "answers": [
+            {
+              "correct": false,
+              "correct_index": 1,
+              "question_id": "s2q1",
+              "seconds": 0.3,
+              "selected_index": 0,
+              "topic": "pest_scouting"
+            },
+            {
+              "correct": false,
+              "correct_index": 3,
+              "question_id": "s2q2",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "pest_response"
+            },
+            {
+              "correct": true,
+              "correct_index": 0,
+              "question_id": "s2q3",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "crop_health"
+            }
+          ],
+          "max_score": 3,
+          "percent": 33.3,
+          "player": 2,
+          "role": "monitor",
+          "score": 1,
+          "seconds": 0.33
+        }
+      ],
+      "score": 2,
+      "seconds": 0.34
+    },
+    {
+      "instrument_id": "quiz_scenario_3_v3",
+      "kind": "quiz_3",
+      "max_score": 6,
+      "mode": "individual",
+      "percent": 0.0,
+      "players": [
+        {
+          "answers": [
+            {
+              "correct": false,
+              "correct_index": 2,
+              "question_id": "s3q1",
+              "seconds": 0.31,
+              "selected_index": 0,
+              "topic": "shared_water"
+            },
+            {
+              "correct": false,
+              "correct_index": 3,
+              "question_id": "s3q2",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "water_scarcity"
+            },
+            {
+              "correct": false,
+              "correct_index": 1,
+              "question_id": "s3q3",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "stress_recovery"
+            }
+          ],
+          "max_score": 3,
+          "percent": 0.0,
+          "player": 1,
+          "role": "planter",
+          "score": 0,
+          "seconds": 0.33
+        },
+        {
+          "answers": [
+            {
+              "correct": false,
+              "correct_index": 2,
+              "question_id": "s3q1",
+              "seconds": 0.3,
+              "selected_index": 0,
+              "topic": "shared_water"
+            },
+            {
+              "correct": false,
+              "correct_index": 3,
+              "question_id": "s3q2",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "water_scarcity"
+            },
+            {
+              "correct": false,
+              "correct_index": 1,
+              "question_id": "s3q3",
+              "seconds": 0.01,
+              "selected_index": 0,
+              "topic": "stress_recovery"
+            }
+          ],
+          "max_score": 3,
+          "percent": 0.0,
+          "player": 2,
+          "role": "monitor",
+          "score": 0,
+          "seconds": 0.33
+        }
+      ],
+      "score": 0,
+      "seconds": 0.34
+    }
+  ],
+  "scenarios": [
+    {
+      "average_condition": 0.0,
+      "causes": [
+        "Nothing was sown this season, so there was nothing to harvest. The Planter has to till a tile before seed will go into it."
+      ],
+      "crop": "Maize",
+      "duration_seconds": 200.0,
+      "elapsed_seconds": 200.08,
+      "end_reason": "time",
+      "event": {
+        "drying_multiplier_at_end": 1.0,
+        "event": "none",
+        "peak_drying_multiplier": 1.0,
+        "ramp_seconds": 0.0,
+        "tiles_infested": 0,
+        "tiles_infested_by_new_arrivals": 0,
+        "tiles_infested_by_spread": 0,
+        "triggered": false,
+        "triggered_at_seconds": null
+      },
+      "players": [
+        {
+          "actions": {
+            "hoe_ok": 1
+          },
+          "player": 1,
+          "role": "planter"
+        },
+        {
+          "actions": {
+            "scout_ok": 1
+          },
+          "player": 2,
+          "role": "monitor"
+        }
+      ],
+      "scenario_id": "baseline",
+      "scenario_index": 1,
+      "target_tiles": 10,
+      "tiles": [
+        {
+          "crop": "None",
+          "failed_cycles": 0,
+          "growth": 0.0,
+          "harvested_yield": 0.0,
+          "harvests": 0,
+          "health": 1.0,
+          "moisture": 0.0,
+          "planted_by_player": null,
+          "seconds_infested": 0.0,
+          "seconds_stressed": 0.0,
+          "state": "tilled",
+          "tile": "1,2",
+          "tilled_by_player": 1,
+          "times_watered": 0,
+          "total_yield": 0.0,
+          "water_used_litres": 0.0
+        }
+      ],
+      "tiles_failed": 0,
+      "tiles_harvested": 0,
+      "tiles_matured": 0,
+      "tiles_sown": 0,
+      "tiles_still_growing": 0,
+      "title": "Scenario 1 - Baseline season",
+      "total_yield": 0.0,
+      "water": {
+        "capacity_litres": 380.0,
+        "refused_draws": 0,
+        "remaining_litres": 380.0,
+        "used_litres": 0.0
+      }
+    },
+    {
+      "average_condition": 0.0,
+      "causes": [
+        "Nothing was sown this season, so there was nothing to harvest. The Planter has to till a tile before seed will go into it."
+      ],
+      "crop": "Beans",
+      "duration_seconds": 200.0,
+      "elapsed_seconds": 200.02,
+      "end_reason": "time",
+      "event": {
+        "drying_multiplier_at_end": 1.1,
+        "event": "pest",
+        "peak_drying_multiplier": 1.1,
+        "ramp_seconds": 0.0,
+        "tiles_infested": 0,
+        "tiles_infested_by_new_arrivals": 0,
+        "tiles_infested_by_spread": 0,
+        "triggered": true,
+        "triggered_at_seconds": 35.01
+      },
+      "players": [
+        {
+          "actions": {
+            "hoe_ok": 1
+          },
+          "player": 1,
+          "role": "planter"
+        },
+        {
+          "actions": {
+            "scout_ok": 1
+          },
+          "player": 2,
+          "role": "monitor"
+        }
+      ],
+      "scenario_id": "pest",
+      "scenario_index": 2,
+      "target_tiles": 10,
+      "tiles": [
+        {
+          "crop": "None",
+          "failed_cycles": 0,
+          "growth": 0.0,
+          "harvested_yield": 0.0,
+          "harvests": 0,
+          "health": 1.0,
+          "moisture": 0.0,
+          "planted_by_player": null,
+          "seconds_infested": 0.0,
+          "seconds_stressed": 0.0,
+          "state": "tilled",
+          "tile": "1,2",
+          "tilled_by_player": 1,
+          "times_watered": 0,
+          "total_yield": 0.0,
+          "water_used_litres": 0.0
+        }
+      ],
+      "tiles_failed": 0,
+      "tiles_harvested": 0,
+      "tiles_matured": 0,
+      "tiles_sown": 0,
+      "tiles_still_growing": 0,
+      "title": "Scenario 2 - Pest outbreak",
+      "total_yield": 0.0,
+      "water": {
+        "capacity_litres": 300.0,
+        "refused_draws": 0,
+        "remaining_litres": 300.0,
+        "used_litres": 0.0
+      }
+    },
+    {
+      "average_condition": 0.0,
+      "causes": [
+        "Nothing was sown this season, so there was nothing to harvest. The Planter has to till a tile before seed will go into it."
+      ],
+      "crop": "Maize",
+      "duration_seconds": 200.0,
+      "elapsed_seconds": 200.04,
+      "end_reason": "time",
+      "event": {
+        "drying_multiplier_at_end": 2.6,
+        "event": "drought",
+        "peak_drying_multiplier": 2.6,
+        "ramp_seconds": 100.0,
+        "tiles_infested": 0,
+        "tiles_infested_by_new_arrivals": 0,
+        "tiles_infested_by_spread": 0,
+        "triggered": true,
+        "triggered_at_seconds": 30.07
+      },
+      "players": [
+        {
+          "actions": {
+            "hoe_ok": 1
+          },
+          "player": 1,
+          "role": "planter"
+        },
+        {
+          "actions": {
+            "scout_ok": 1
+          },
+          "player": 2,
+          "role": "monitor"
+        }
+      ],
+      "scenario_id": "drought",
+      "scenario_index": 3,
+      "target_tiles": 4,
+      "tiles": [
+        {
+          "crop": "None",
+          "failed_cycles": 0,
+          "growth": 0.0,
+          "harvested_yield": 0.0,
+          "harvests": 0,
+          "health": 1.0,
+          "moisture": 0.0,
+          "planted_by_player": null,
+          "seconds_infested": 0.0,
+          "seconds_stressed": 0.0,
+          "state": "tilled",
+          "tile": "1,2",
+          "tilled_by_player": 1,
+          "times_watered": 0,
+          "total_yield": 0.0,
+          "water_used_litres": 0.0
+        }
+      ],
+      "tiles_failed": 0,
+      "tiles_harvested": 0,
+      "tiles_matured": 0,
+      "tiles_sown": 0,
+      "tiles_still_growing": 0,
+      "title": "Scenario 3 - Drought season",
+      "total_yield": 0.0,
+      "water": {
+        "capacity_litres": 140.0,
+        "refused_draws": 0,
+        "remaining_litres": 140.0,
+        "used_litres": 0.0
+      }
+    }
+  ],
+  "session_id": "2cnbw2f7",
+  "session_started_unix": 1793219297,
+  "total_yield": 0.0,
+  "usability": {
+    "instrument_id": "usability_v1",
+    "responses": [
+      {
+        "answers": [
+          {
+            "answer": "yes",
+            "seconds": 0.26,
+            "statement_id": "u1",
+            "topic": "controls"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u2",
+            "topic": "icons_messages"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u3",
+            "topic": "shared_water"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u4",
+            "topic": "shared_keyboard"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u5",
+            "topic": "play_again"
+          }
+        ],
+        "player": 1,
+        "role": "planter"
+      },
+      {
+        "answers": [
+          {
+            "answer": "yes",
+            "seconds": 0.26,
+            "statement_id": "u1",
+            "topic": "controls"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u2",
+            "topic": "icons_messages"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u3",
+            "topic": "shared_water"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u4",
+            "topic": "shared_keyboard"
+          },
+          {
+            "answer": "yes",
+            "seconds": 0.01,
+            "statement_id": "u5",
+            "topic": "play_again"
+          }
+        ],
+        "player": 2,
+        "role": "monitor"
+      }
+    ],
+    "seconds": 0.33
+  }
+}
